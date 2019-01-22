@@ -2,6 +2,6 @@ create -n "env_name" python=x.x anaconday
 
 EG: create -n testbot1 python=3.5 anaconday
 
-source activate yourenvname
+activate yourenvname
 
-EG: source activate testbot1
+EG: activate testbot1
