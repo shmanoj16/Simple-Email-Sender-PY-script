@@ -1,7 +1,13 @@
-create -n "env_name" python=x.x anaconday
+/* CREATE VIRTUAL ENV IN ANACONDA/*
 
-EG: create -n testbot1 python=3.5 anaconday
+conda create -n "yourenvname" python=x.x anaconda
+EG: conda create -n testbot1 python=x.x anaconda
+
+/*ACTIVATE VIR ENV/*
 
 activate yourenvname
 
 EG: activate testbot1
+
+
+SOURCE: https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
